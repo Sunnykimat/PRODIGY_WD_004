@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Sunny Kumar</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <img src="images/profile.jpg" alt="Profile Photo" class="profile-img"/>
+      <h1>Hello, I'm Sunny Kumar</h1>
+      <p>A passionate Web Developer skilled in HTML, CSS, JavaScript, and React.</p>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I am a dedicated web developer with a background in Computer Science. I hold a Bachelor's degree in Computer Applications and specialize in frontend and backend web development. I love building responsive and user-friendly websites.
+    </p>
+    <ul>
+      <li>🎓 BCA, XYZ University</li>
+      <li>💼 2+ years experience in Web Development</li>
+      <li>⚙️ Skills: HTML, CSS, JavaScript, React, Node.js</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-cards">
+      <div class="card">
+        <h3>Online Food Ordering App</h3>
+        <p>Developed a responsive app for ordering food with admin and user dashboards.</p>
+      </div>
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>This website you’re viewing! Built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="card">
+        <h3>Weather App</h3>
+        <p>Used APIs to show real-time weather data based on user location.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="form-response"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Sunny Kumar. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
